@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,300&family=Sriracha&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sriracha', cursive;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Roboto', sans-serif !important;
+    color: #c8c8c8;
+
+}
+.header_principal{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(./video/retrato.jpg);
+    background-repeat: no-repeat;
+    background-color: #1f1f20;
+    background-position-x: right;
+    background-size: 50% 100%;
+    
+    height: 85vh;
+   
+}
+
+
+
+/* utilidades */
+
+.title-page{
+    color: rgb(221, 167, 66) !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    position: relative !important;
+    padding-top: 70px !important;
+}
+
+.title-page::before{
+    content: "";
+    position: absolute;
+    
+    width: 60px;
+    height: 3px;
+    background-color: rgb(228, 156, 48);
+    bottom: -6px;
+    
+  
+  
+
+    
+}
+
+
+
+
+/* fin utilidades */
+
+.container-fluid nav{
+   position: fixed;
+   z-index: 3;
+   width: 100%;
+    text-align: center;
+   
+}
+
+
+
+
+.pegajoso{
+  
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    transition: ease-in 0.5s;
+  
+  
+
+}
+
+
+@media(max-width:768px){
+    .container-fluid nav{
+        width: 100%;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        position: fixed;
+background-color: #383838 !important;
+     }  
+}
+
+
+.navbar-brand{
+    color: #f2f2f2 !important;
+}
+.nav-link{
+    color: #f2f2f2 !important;
+}
+
+
+
+
+/* otra cards */
+
+
+section.container-fluid{
+    background-color: #2e2e30 ;
+
+}
+.card{
+    border: none;
+    transition: ease-in 0.5s;
+    bottom: 0;
+}
+.card:hover{
+    bottom: 5px;
+    transition: ease 0.5s;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.card-body{
+    background-color: #2b2b2b;
+    color: #f2f2f2;
+}
+
+
+
+/* about me */
+
+.about__me{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-color: #1f1f20;
+}
+
+.about__me div p{
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.about__me div div img{
+    width: 100%;
+    max-height: 500px;
+    
+    
+  }
+
+  .my__skills div {
+      width: 100%;
+      background-color: #2e2e30;
+      position: relative;
+  }
+
+  .my__skills div span{
+position: absolute;
+top: 0;
+right: 0;
+font-size: 14px;
+left: 10px;
+color: white;
+z-index:2;
+
+
+}
+
+  .my__skills div div{
+        background-color: rgb(238, 197, 62);
+       
+        height: 10px;
+        padding: 10px;
+        position: relative;
+        margin: 10px 0;
+        width: 40%;
+        max-width: 100%;
+  }
+
+
+
+  /* service */
+
+  .service{
+      background-color: #2e2e30;
+      padding: 50px 0;
+  }
+
+  /* porque contratarme */
+
+  .why__choose{
+      padding: 50px 0;
+      background-color: #1f1f20;
+  }
+
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+  .parrafo{
+      font-size: 15px;
+      text-align: justify;
+      color: #f2f2f2;
+      padding: 0 !important;
+  }
+
+  .icono{
+      background-color: rgb(238, 197, 61);
+      border: 1px solid #999;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      font-size: 40px;
+  }
+
+
+.navbar-nav li:nth-last-child(1){
+   
+    border: 1px solid rgb(228, 156, 48);
+}
+ 
+
+.navbar-nav li:nth-last-child(1) .nav-link{
+    color: rgb(228, 156, 48) !important;;
+
+}
+
+
+.border-right{
+    border-right: 8px solid   rgb(228, 156, 48) !important;
+}
+
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+}   
+
+.imagen img{
+ cursor: pointer;
+ filter: grayscale(50);
+ transition: ease-in 0.6s;
+}   
+
+.imagen img:hover{
+    transition: ease 0.5s;
+    cursor: pointer;
+    filter: grayscale(0);
+   }   
+
+
+ 
